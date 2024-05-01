@@ -1,0 +1,199 @@
+body {
+    background-color: #f2f7fa; 
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #71cbff; 
+    color: rgb(48, 50, 52);
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.box1{
+    display:flex;
+    align-items: center;
+    width:250px;
+}
+a:hover { background-color:white
+    }
+nav a {
+    color:rgb(48, 50, 52);
+    text-decoration: none;
+    padding: 10px 10px;
+
+}
+
+main {
+    padding: 0px;
+}
+
+.banner  {
+   text-align:center;
+    color: white;
+
+    
+    background-image:url("stylish-man-dressed-sweater-jeans-fashion.jpg"); 
+    background-repeat: no-repeat;
+
+
+    background-position:center;
+    background-size:cover;
+    padding-top: 150px;
+    height:300px;
+
+    border-radius: 0px; 
+    margin-bottom: 0px;
+}
+.banner h1{
+    position: absolute;
+    font-size: 50px;
+}
+h2{
+    font-size:75px;
+}
+p{font-size: 30px;}
+
+
+
+
+.banner1  {
+    text-align: center;
+    color: white;
+
+    background-image: url(female-good-winter-clothes.jpg);
+    background-repeat: no-repeat;
+
+    background-position-y: bottom;
+    background-position:center;
+    background-size:cover;
+    padding-top: 150px;
+    height:300px;
+    border-radius: 0px; 
+    margin-bottom: 40px;
+}
+
+.banner h2 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.banner p {
+    margin-bottom: 20px;
+}
+.container{
+   
+    display:flex;
+    justify-content: space-around;
+}
+.box{
+
+    width: 300px;
+}
+
+.image{
+    height: 55px;
+    width: 55px;
+   
+}
+body{
+    margin-bottom: 100px;
+}
+/* PAGE CHECKOUT */
+.checkoutLayout{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    padding: 20px;
+}
+.checkoutLayout .right{
+    background-color: #7bc4ee;
+    border-radius: 20px;
+    padding: 40px;
+    color: #fff;
+}
+.checkoutLayout .list img{
+    height: 70px;
+}
+.checkoutLayout .right .form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    border-bottom: 1px solid #86c8ee;
+    padding-bottom: 20px;
+}
+.checkoutLayout .form .group:nth-child(-n+3){
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.checkoutLayout .form input,
+.checkoutLayout .form select{
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: none;
+    background-color: rgb(74, 133, 173);
+    color: #fff
+}
+.checkoutLayout .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.checkoutLayout .row div:nth-child(2){
+    font-weight: bold;
+    font-size: x-large;
+}
+.buttonCheckout{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(24, 99, 122);
+}
+.returnCart h1{
+    border-top: 1px solid #eee;
+    padding: 20px 0;
+}
+.returnCart .list .item img{
+    height: 80px;
+} 
+.returnCart .item{
+    display: grid;
+    grid-template-columns: 80px 1fr 50px 80px;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    padding: 0 10px;
+    box-shadow: 0 10px 20px #555;
+    border-radius: 20px;
+}
+.returnCart .item .name,
+.returnCart .item .returnPrice{
+    font-size: x-large;
+    font-weight: bold;
+}

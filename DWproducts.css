@@ -1,0 +1,187 @@
+body {
+    background-color: #f2f7fa; 
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #71cbff; 
+    color: rgb(48, 50, 52);
+    padding: 20px;
+}
+.image{
+    height: 55px;
+    width: 55px;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.box1{
+    display:flex;
+    align-items: center;
+    width:250px;
+}
+a:hover { background-color:white
+    }
+nav a {
+    color:rgb(48, 50, 52);
+    text-decoration: none;
+    padding: 10px 10px;
+
+}
+main {
+    padding: 0px;
+}
+
+img{
+    height: 500px;
+    width: 350px;
+    
+
+}
+img:hover{
+    box-shadow: 2px 0px 5px #666e72;
+
+}
+.newitems{
+    display: flex;
+    justify-content:center;
+    
+    margin: 50px;
+
+}
+
+
+.newimg{
+    display:flex;
+    justify-content:space-around;
+    
+    width: 300px;
+    height: 300px;
+
+}
+.box{
+    display: flex;
+    border-style:ridge;
+    align-items:center;
+    padding-left: 0;
+    
+}
+
+.box:hover{
+    background-color: aliceblue;
+}
+
+.container{
+    
+    margin-top: 35px;
+    text-align: center;
+   
+   
+}
+.container h1{
+    padding-bottom: 35px;
+    
+}
+.card{
+    width:250px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    border:black;
+    border-style:double;
+    
+
+}
+.card:hover{
+    box-shadow: 2px 0px 5px #666e72;
+
+}
+.price:hover{
+
+    color: rgb(101, 178, 255);
+}
+.texts{
+   padding: 10px;
+   text-align: center;
+   
+   
+}
+
+
+.addtocart{
+    width: 120px;
+    height: 30px;
+    color:white;
+    background-color: rgb(50, 77, 139);
+}
+.addtocart:hover{
+color:black;
+background-color:  rgb(101, 178, 255);
+stroke: #71cbff;
+
+}
+
+.pic{
+    width: 250px;
+    height:350px;
+    object-fit: contain;
+
+
+
+}
+.items{
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 50px;
+  
+    
+}
+
+.pic-container{
+    width: 250px;
+    height:20rem;
+}
+
+
+
+.container1 img{
+    display: flex;
+    flex-direction: row;
+    
+    text-align: center;
+   
+   
+}
+main{
+    margin-bottom: 200px;
+}
+
+.row {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-left:100px;
+    margin-right:100px;
+}
+
+
+
+

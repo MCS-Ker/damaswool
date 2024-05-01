@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Damas Wool | Wool Clothing E-Store</title>
+    <link rel="stylesheet" type="text/css" href="Cartpage.css">
+    <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="box1">
+
+             <a href="#">
+                <img class="image" src="DW logo.png" alt="damaswool">
+               </a>
+             <h1>Damas Wool</h1>
+            </div>
+            <div class="box2">
+              <nav class="topnav">
+                <a href="damaswool.html">Home</a>
+                <a href="DWproducts.html">Products</a>
+                <a href="#">About</a>
+                <a href="Cartpage.html">Cart</a>
+               <!-- <a onclick="document.getElementById('id01')" href="#">Sign Up</a>-->
+              </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="cart">
+                <div class="top">
+                    <h3>Shopping Cart</h3>
+                    <h3 id="itemA">4 Items</h3>
+                </div>
+                <table cellspacing="0" class="table-head">
+                    <tbody><tr>
+                        <th width="150" class="head-img">Image</th>
+                        <th width="360">Name</th>
+                        <th width="150">Price</th>
+                        <th width="70">Delete</th>
+                    </tr>
+                </tbody></table>
+                <table id="root" cellspacing="0"><tbody><tr>
+                    <td width="150"><div class="img-box"><img class="img" src="photos/beige sweater for women.jpg"></div></td>
+                    <td width="360"><p style="font-size:15px;">Beige sweater for women</p></td>
+                    <td width="150"><h2 style="font-size:15px; color:rgb(255, 0, 132); ">120000 sp</h2></td>
+                    <td width="70"><i class="fa-solid fa-trash" onclick="delElement(0)" aria-hidden="true"></i></td></tr><tr>
+                    <td width="150"><div class="img-box"><img class="img" src="photos/navy short wool dress.jpg"></div></td>
+                    <td width="360"><p style="font-size:15px;">Navy short wool dress</p></td>
+                    <td width="150"><h2 style="font-size:15px; color:rgb(255, 0, 132); ">210000 sp</h2></td>
+                    <td width="70"><i class="fa-solid fa-trash" onclick="delElement(1)" aria-hidden="true"></i></td></tr><tr>
+                    <td width="150"><div class="img-box"><img class="img" src="photos/beige half zip wool sweater for men.jpg"></div></td>
+                    <td width="360"><p style="font-size:15px;">Beige half zip wool sweater</p></td>
+                    <td width="150"><h2 style="font-size:15px; color:rgb(255, 0, 132); ">175000 sp</h2></td>
+                    <td width="70"><i class="fa-solid fa-trash" onclick="delElement(2)" aria-hidden="true"></i></td></tr><tr>
+                    <td width="150"><div class="img-box"><img class="img" src="photos/light blue knitted scaarf.jpg"></div></td>
+                    <td width="360"><p style="font-size:15px;">Light blue knitted scarf</p></td>
+                    <td width="150"><h2 style="font-size:15px; color:rgb(255, 0, 132); ">98000 sp</h2></td>
+                    <td width="70"><i class="fa-solid fa-trash" onclick="delElement(3)" aria-hidden="false"></i></td></tr></tbody></table>
+                <hr>
+            </div>
+
+            <div class="summary">
+                <div class="top">
+                    <h2>Order Summary</h2>
+                </div>
+                <div class="detail">
+                    <h2 id="itemB">4 Items</h2>
+                   
+                </div>
+   
+                
+                <div class="top">
+                    <h2>Total</h2>
+                    <h2 id="totalB">603000 sp</h2>
+                </div>
+                <div style="padding: 0 10px; margin-bottom: 20px;">
+                   <a href="Checkout.html">
+                    <button class="checkout">Check out</button>
+                   </a>
+                </div>
+            </div>
+        </div>
+
+
+    
+
+    </main>
+
+    <div class="container" >
+
+        <div class="box">
+             <h3 id="about">About Us</h3>
+             <p1>
+                 Our brand is dedicated to offering high-quality wool and knitted clothing that combines comfort, style, and sustainability.
+                 <br> Embrace the cozy warmth and timeless elegance of our collection, designed to elevate your wardrobe with natural fibers and classic designs.
+
+             </p1>
+
+        </div>
+
+        <div class="box">
+           <h3>Contact</h3>
+           <p1>
+             <a href="mailto:info@damaswool.com">info@damaswool.com</a>
+             <br> 0963 999 555 111
+           </p1> 
+
+        </div>
+
+        <div class=box>
+           <h3>Follow Us</h3>
+            <a href="https://www.instagram.com">
+             <img class="image" src="IG logo.png" alt="Instagram">
+            </a>
+            <a href="https://www.facebook.com">
+             <img class="image" src="FB logo.png" alt="Facebook">
+
+        </div>
+     </div>    
+
+</body>
+</html>
